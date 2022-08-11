@@ -50,5 +50,23 @@ body {
 .card:hover{
     transition: 800ms;
     transform: scale(1.05, 1.05);
-    box-shadow: 0px 0px 15px hsl(194, 100%, 50%);
+}
+
+.asado-patagonia:hover{
+  background-color: firebrick;
+  color: darkgoldenrod;
+  box-shadow: 0px 0px 15px rgb(223, 219, 13);
+}
+
+
+.papas-variedad:hover{
+  background-color: rgb(245, 238, 179);
+  color: rgb(75, 26, 121);
+  box-shadow: 0px 0px 15px rgb(119, 42, 190);
+}
+
+.salmones-alaska:hover{
+  background-color: rgb(252, 152, 134);
+  color: rgb(0, 74, 170);
+  box-shadow: 0px 0px 15px rgb(17, 73, 228);;
 }
