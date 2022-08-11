@@ -41,3 +41,14 @@ body {
 #Mis-trabajos{
   background-color: black;
 }
+
+.card{
+  transition: 800ms;
+  
+}
+
+.card:hover{
+    transition: 800ms;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 0px 15px hsl(194, 100%, 50%);
+}
